@@ -1,0 +1,26 @@
+.container {
+  width: 100%;
+}
+
+.dashboard {
+  display: flex;
+}
+
+.sidebar {
+  display: none;
+}
+
+.positionsViewer {
+  flex-basis: 100%;
+}
+
+@media (min-width: 700px) {
+  .sidebar {
+    display: block;
+    flex-basis: 20%;
+  }
+
+  .positionsViewer {
+    flex-basis: 80%;
+  }
+}

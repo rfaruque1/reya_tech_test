@@ -1,0 +1,28 @@
+.container {
+  padding: 0.5rem;
+  border-right: var(--element-border);
+  height: 100vh;
+}
+
+.heroTab {
+  display: flex;
+  align-items: center;
+  background: #222222;
+  border-radius: 0.5rem;
+  padding: 0.8rem;
+}
+
+.heroLabel {
+  margin: 0;
+  margin-left: 0.75rem;
+}
+
+.description {
+  margin-left: 0.8rem;
+  border-left: solid 1px white;
+
+  & > span {
+    margin-left: 0.5rem;
+    font-size: 12px;
+  }
+}
