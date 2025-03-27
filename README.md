@@ -2,6 +2,10 @@
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
+# Deployed url link
+
+https://reya-tech-test.vercel.app
+
 # Running the project
 
 Run npm install on the root directory to install packages. If you do get an error at this stage, you may need to upgrade your version of node via nvm. (Node version 16.0.0 should suffice).
